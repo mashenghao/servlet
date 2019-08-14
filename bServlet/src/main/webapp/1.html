@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>1.html</h2>
+	<h3>相对路径访问</h3>
+	<a href="./html/2.html">访问html下的2.html (./html/2.html)</a>
+	<br>
+	<a href="html/2.html">访问html下的2.html (html/2.html)</a>
+	<br>
+	<a href="./servlet1.do"> 访问/servlet1.do(可以通过url地址区分，访问Servlet是<br>
+		/day09/servlet1.do，访问1.html是/day9/1.html，这俩在同一目录下 ./servlet1.do)
+	</a>
+	<br>
+	<a href="servlet1.do">访问/servlet1.do (servlet1.do)</a>
+	<br>
+
+	<h3>绝对路径访问</h3>
+	<a href="http://localhost:8080/bServlet/html/2.html">访问html下的2.html
+		(用全路径)</a>
+	<br>
+	<a href="/bServlet/html/2.html">访问html下的2.html -- /bServlet/html/2.html</a>
+</body>
+</html>
